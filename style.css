@@ -23,6 +23,7 @@ h2 {
     color: #5fbaa7;
     margin: 20px 0;
     font-size: 2.2rem;
+    text-align: center;
 }
 
 p {
@@ -95,7 +96,29 @@ input:focus {
 
 @media (max-width:600px) {
     .currency input {
+        width: 150px;
+        font-size: 1rem;
+    }
+
+    .container {
         width: 200px;
     }
-}
 
+    .currency select {
+        padding: 5px 10px 5px 5px;
+        font-size: 0.8rem;
+        background-position: right 0px top 50%, 0, 0;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 1px 11px;
+    }
+    
+    .rate {
+        text-align: right;
+        padding: 0px 10px;
+        font-weight: normal;
+        font-size: 0.8rem;
+    }
+}
